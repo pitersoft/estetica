@@ -13,7 +13,7 @@
               Descripción del servicio: Lorem ipsum dolor sit amet
               consectetur adipisicing elit. Totam, saepe?
             </p>
-            <a href="#" class="btn btn-dark">Ver más</a>
+            <a href="./cosmetica.php" class="btn btn-dark">Ver más</a>
           </div>
         </div>
       </div>
@@ -26,7 +26,7 @@
               Descripción del servicio: Lorem ipsum dolor sit amet
               consectetur adipisicing elit. Totam, saepe?
             </p>
-            <a href="#" class="btn btn-dark">Ver más</a>
+            <a href="./cosmetica.php" class="btn btn-dark">Ver más</a>
           </div>
         </div>
       </div>

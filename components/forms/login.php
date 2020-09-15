@@ -6,11 +6,11 @@
         <form>
           <div class="form-group">
             <label for="inputName">Usuario</label>
-            <input type="text" class="form-control" id="inputName" placeholder="Usuario" />
+            <input type="text" class="form-control" id="inputName" placeholder="Usuario" required minlength="3" maxlength="20" />
           </div>
           <div class="form-group">
             <label for="inputPassword">Contraseña</label>
-            <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" />
+            <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" required minlength="3" maxlength="20" />
           </div>
 
           <button type="submit" class="btn btn-dark">Login</button>

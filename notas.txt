@@ -1,11 +1,13 @@
-[X] seccion principal
+[X] navbar
+[X] seccion hero 
 [X] section experiencias
-[X] contacto
+[X] contacto (direccion y horario)
 [X] footer
 [X] login form
 [X] registro completo: Nombre, apellidos, teléfono, mail, cumpleaños, dirección. 
 [X] registro basico: Sin registro: nombre y apellido esta opción
-[ ] html => php (include)
-
-
-[ ] color secundario
+[X] html => php (include)
+[X] actualizar home (de acuerdo al mockup)
+[X] validacion formularios !TODO: cant. caracteres
+[ ] vista detalle servicio
+[ ] formulario basico
