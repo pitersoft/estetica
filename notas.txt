@@ -1,0 +1,11 @@
+[X] seccion principal
+[X] section experiencias
+[X] contacto
+[X] footer
+[X] login form
+[X] registro completo: Nombre, apellidos, teléfono, mail, cumpleaños, dirección. 
+[X] registro basico: Sin registro: nombre y apellido esta opción
+[ ] html => php (include)
+
+
+[ ] color secundario

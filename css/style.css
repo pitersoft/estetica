@@ -1,0 +1,70 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar__abs {
+  position: absolute;
+  /* background-color:; */
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar__display {
+
+  background-color: #0a0a0a;
+
+
+}
+
+.hero__img {
+  min-height: 100vh;
+  background-image: url("../assets/img/main_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero__social {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+.hero__social ul {
+  list-style: none;
+  display: flex;
+}
+
+.hero__social ul li {
+  padding: 20px;
+  font-size: 45px;
+  color: white;
+}
+
+.contacto {
+  color: #fff;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+    url("../assets/img/contact_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer {
+  min-height: 100px;
+  background-color: #0a0a0a;
+  color: #fff;
+
+}
+
+@media (max-width: 768px) {
+  .register__img {
+    max-height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
