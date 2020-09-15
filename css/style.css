@@ -8,8 +8,13 @@
   z-index: 1;
 }
 
+.navbar__active {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+
 .navbar-dark .navbar-nav .nav-link {
-  /* color: rgba(255,255,255,.5); */
   color: white;
 }
 
@@ -28,6 +33,7 @@
   background-position: center;
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -58,6 +64,7 @@
 .hero__social ul {
   list-style: none;
   display: flex;
+  justify-content: center;
 }
 
 .hero__social ul li {
@@ -108,5 +115,26 @@ footer {
     max-height: 200px;
     width: 100%;
     object-fit: cover;
+  }
+
+  .hero__social {
+    display: block;
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+    right: 0;
+  }
+
+  .hero__social ul {
+    padding: 0;
+  }
+
+  .hero__info img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .hero__info h4 {
+    font-size: 20px;
   }
 }
